@@ -1,4 +1,4 @@
-from masks import get_mask_account, get_mask_card_number
+from pvtor_zada4a_10_1.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(info: int | str) -> str:
@@ -20,8 +20,8 @@ def mask_account_card(info: int | str) -> str:
 
 def get_date(date_string: str) -> str:
     """Функция для получения даты из строки."""
-    stroka = date_string.split('T')
-    date_parts = stroka[0].split('-')
+    stroka = date_string.split("T")
+    date_parts = stroka[0].split("-")
     year = date_parts[0]
     month = date_parts[1]
     day = date_parts[2]
