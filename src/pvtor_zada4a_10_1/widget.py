@@ -28,19 +28,26 @@ def get_date(date_string: str) -> str:
     finish = f"{day}.{month}.{year}"
     return finish
 
+# def adding(x, y):
+#     return x + y
+
 
 if __name__ == "__main__":
     info = "Счет 73654108430135874305"
     result = mask_account_card(info)
     print(result)
 
-if __name__ == "__main__":
+
     info = "Visa Platinum 7000792289606361"
     result = mask_account_card(info)
     print(result)
 
 
-if __name__ == "__main__":
+
     date_string = "2024-03-11T02:26:18.671407"
     result = get_date(date_string)
     print(result)
+
+    # result = adding(10, 20)
+    # print(result)
+
