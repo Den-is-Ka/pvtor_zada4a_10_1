@@ -29,18 +29,17 @@ def get_date(date_string: str) -> str:
     return finish
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     info = "Счет 73654108430135874305"
     result = mask_account_card(info)
     print(result)
 
-if __name__ == "__main__":
+
     info = "Visa Platinum 7000792289606361"
     result = mask_account_card(info)
     print(result)
 
 
-if __name__ == "__main__":
     date_string = "2024-03-11T02:26:18.671407"
     result = get_date(date_string)
     print(result)
