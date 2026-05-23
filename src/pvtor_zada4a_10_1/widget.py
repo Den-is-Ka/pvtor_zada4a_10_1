@@ -34,11 +34,9 @@ if __name__ == "__main__":  # pragma: no cover
     result = mask_account_card(info)
     print(result)
 
-
     info = "Visa Platinum 7000792289606361"
     result = mask_account_card(info)
     print(result)
-
 
     date_string = "2024-03-11T02:26:18.671407"
     result = get_date(date_string)
